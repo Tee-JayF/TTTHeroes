@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "Tee__Jay"
+    ],
+    "environment": "*",
+    "id": "ttt_heroes",
+    "version": "1.0.0",
+    "name": "TTT-Heroes",
+    "description": "The Terrifying Temmies Heroes Pack!",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}

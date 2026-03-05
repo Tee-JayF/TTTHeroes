@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "ttt_heroes",
+        "pack_format": 15,
+        "description": "The Terrifying Temmies Heroes Pack!",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}
