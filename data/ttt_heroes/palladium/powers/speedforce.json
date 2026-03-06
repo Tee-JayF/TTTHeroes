@@ -26,35 +26,6 @@
                 "unlocking": []
             }
         },
-
-        
-        
-        "Speedforce Off": {
-            "type": "palladium:command",
-            "icon": "minecraft:command_block",
-            "title": "null",
-            "bar_color": "light_gray",
-            "hidden": false,
-            "hidden_in_bar": false,
-            "list_index": 0,
-            "gui_position": "null",
-            "description": "null",
-            "first_tick_commands": [],
-            "last_tick_commands": [],
-            "commands": [
-                "scoreboard players set Tee__Jay ttt.speedforce_level 0"
-            ],
-            "conditions": {
-                "enabling": [                {
-                                    "type": "palladium:action",
-                                    "cooldown": 0,
-                                    "key_type": "key_bind",
-                                    "needs_empty_hand": false,
-                                    "allow_scrolling_when_crouching": true
-                                }],
-                "unlocking": []
-            }
-        },
         
         "Speedforce Up": {
             "type": "palladium:command",
@@ -72,13 +43,15 @@
                 "scoreboard players add Tee__Jay ttt.speedforce_level 1"
             ],
             "conditions": {
-                "enabling": [                {
-                                    "type": "palladium:action",
-                                    "cooldown": 0,
-                                    "key_type": "key_bind",
-                                    "needs_empty_hand": false,
-                                    "allow_scrolling_when_crouching": true
-                                }],
+                "enabling": [                
+                {
+                    "type": "palladium:action",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+            ],
                 "unlocking": []
             }
         },
@@ -99,13 +72,15 @@
                 "scoreboard players remove Tee__Jay ttt.speedforce_level 1"
             ],
             "conditions": {
-                "enabling": [                {
-                                    "type": "palladium:action",
-                                    "cooldown": 0,
-                                    "key_type": "key_bind",
-                                    "needs_empty_hand": false,
-                                    "allow_scrolling_when_crouching": true
-                                }],
+                "enabling": [                
+                    {
+                        "type": "palladium:action",
+                        "cooldown": 0,
+                        "key_type": "key_bind",
+                        "needs_empty_hand": false,
+                        "allow_scrolling_when_crouching": true
+                    }
+                ],
                 "unlocking": []
             }
         },
@@ -183,8 +158,74 @@
                         "type": "palladium:ability_enabled",
                         "power": "null",
                         "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 1,
+                        "max_score": 2
                     }
-                ],
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:blue_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "God Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:white_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 6,
+                        "max_score": 6
+                    }
+                    ],
                 "unlocking": []
             }
         },
