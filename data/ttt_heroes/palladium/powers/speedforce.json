@@ -26,7 +26,65 @@
                 "unlocking": []
             }
         },
+
+
+        "Step Assist": {
+            "type": "palladium:attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "attribute": "forge:step_height_addition",
+            "amount": 1.5,
+            "operation": 0,
+            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 1,
+                        "max_score": 10
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "Step Down": {
+            "type": "gravecore:step_down",
+            "icon": "minecraft:diamond_boots",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "fall_speed": 1,
+            "fall_distance": 2.5,
+            "safety_checks": true,
+            "allow_vehicles": false,
+            "allow_fluids": false,
+            "allowed_fluids": "minecraft:water",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 1,
+                        "max_score": 10
+                    }
+                ],
+                "unlocking": []
+            }
+        },
         
+
         "Speedforce Up": {
             "type": "palladium:command",
             "icon": "minecraft:command_block",
@@ -34,7 +92,7 @@
             "bar_color": "light_gray",
             "hidden": false,
             "hidden_in_bar": false,
-            "list_index": 1,
+            "list_index": 0,
             "gui_position": "null",
             "description": "null",
             "first_tick_commands": [],
@@ -63,7 +121,7 @@
             "bar_color": "light_gray",
             "hidden": false,
             "hidden_in_bar": false,
-            "list_index": 2,
+            "list_index": 1,
             "gui_position": "null",
             "description": "null",
             "first_tick_commands": [],
@@ -79,61 +137,6 @@
                         "key_type": "key_bind",
                         "needs_empty_hand": false,
                         "allow_scrolling_when_crouching": true
-                    }
-                ],
-                "unlocking": []
-            }
-        },
-
-
-        "Step Assist": {
-            "type": "palladium:attribute_modifier",
-            "icon": "minecraft:iron_chestplate",
-            "title": "null",
-            "bar_color": "light_gray",
-            "hidden": false,
-            "hidden_in_bar": false,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "attribute": "forge:step_height_addition",
-            "amount": 1,
-            "operation": 0,
-            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    }
-                ],
-                "unlocking": []
-            }
-        },
-
-        "Step Down": {
-            "type": "gravecore:step_down",
-            "icon": "minecraft:diamond_boots",
-            "title": "null",
-            "bar_color": "light_gray",
-            "hidden": false,
-            "hidden_in_bar": false,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "fall_speed": 1,
-            "fall_distance": 2,
-            "safety_checks": true,
-            "allow_vehicles": false,
-            "allow_fluids": false,
-            "allowed_fluids": "minecraft:water",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
                     }
                 ],
                 "unlocking": []

@@ -11,7 +11,7 @@
     "glow_opacity": 1,
     "core_opacity": 1,
     "bloom": 1,
-    "size": 1,
+    "size": 0.8,
     "normal_transparency": false,
     "rotation": 0,
     "rotation_speed": 0
