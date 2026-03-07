@@ -20,7 +20,6 @@
             "attribute": "minecraft:generic.movement_speed",
             "division_amount": 3,
             "operation": 0,
-            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
             "conditions": {
                 "enabling": [],
                 "unlocking": []
@@ -41,7 +40,6 @@
             "attribute": "forge:step_height_addition",
             "amount": 1.5,
             "operation": 0,
-            "uuid": "498be4fb-af04-42f2-8948-e6ccdc0d99e1",
             "conditions": {
                 "enabling": [
                     {
@@ -258,16 +256,24 @@
                 "enabling": [
                     {
                         "type": "palladium:activation",
-                        "cooldown": 0,
+                        "cooldown": 200,
                         "ticks": 2,
                         "key_type": "key_bind",
                         "needs_empty_hand": true,
                         "allow_scrolling_when_crouching": true
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 10
                     }
                 ],
                 "unlocking": []
             }
         },
+
+
         "fluidwalk": {
             "type": "palladium:water_walk",
             "icon": "minecraft:blaze_rod",
@@ -278,6 +284,34 @@
             "list_index": -1,
             "gui_position": "null",
             "description": "null",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 2,
+                        "max_score": 10
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+
+        "Jump Strength": {
+            "type": "gravecore:dynamic_attribute_modifier",
+            "icon": "minecraft:iron_chestplate",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "scoreboard": "ttt.speedforce_level",
+            "attribute": "palladium:jump_power",
+            "division_amount": 2.5,
+            "operation": 0,
             "conditions": {
                 "enabling": [],
                 "unlocking": []
