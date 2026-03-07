@@ -1,5 +1,6 @@
 {
     "values": [
-        "ttt_heroes:tick"
+        "ttt_heroes:tick",
+        "ttt_heroes:speedster_level"
     ]
 }
