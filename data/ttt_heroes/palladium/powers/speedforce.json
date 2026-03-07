@@ -1,7 +1,7 @@
 {
     "name": "Speedforce",
     "persistent_data": true,
-    "background": "minecraft:textures/block/yellow_wool.png",
+    "background": "minecraft:textures/block/yellow_concrete.png",
     "icon": "ttt_heroes:textures/icons/lucraft/flash_logo_v3.png",
     "gui_display_type": "tree",
     "abilities": {
@@ -96,7 +96,7 @@
             "first_tick_commands": [],
             "last_tick_commands": [],
             "commands": [
-                "scoreboard players add Tee__Jay ttt.speedforce_level 1"
+                "scoreboard players add @s ttt.speedforce_level 1"
             ],
             "conditions": {
                 "enabling": [                
@@ -132,7 +132,7 @@
             "first_tick_commands": [],
             "last_tick_commands": [],
             "commands": [
-                "scoreboard players remove Tee__Jay ttt.speedforce_level 1"
+                "scoreboard players remove @s ttt.speedforce_level 1"
             ],
             "conditions": {
                 "enabling": [                
