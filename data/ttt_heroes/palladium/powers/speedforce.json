@@ -186,7 +186,7 @@
         },
 
 
-        "Fast Trail": {
+        "Light Blue Fast Trail": {
             "type": "palladium:trail",
             "icon": "minecraft:blaze_rod",
             "title": "Fast Trail",
@@ -196,9 +196,123 @@
             "list_index": -1,
             "gui_position": "null",
             "description": "null",
-            "trail": "ttt_heroes:blue_lightning",
+            "trail": "ttt_heroes:light_blue_lightning",
             "conditions": {
                 "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 1,
+                        "max_score": 1
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Orange Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:orange_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 2,
+                        "max_score": 2
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Yellow Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:yellow_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 3,
+                        "max_score": 3
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Purple Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:purple_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 4,
+                        "max_score": 4
+                    },
                     {
                         "type": "palladium:ability_enabled",
                         "power": "null",
