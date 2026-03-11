@@ -575,6 +575,54 @@
                 "enabling": [],
                 "unlocking": []
             }
+        },
+
+
+        "Orange Lightning Picker":{
+            "type": "palladium:command",
+            "icon": "minecraft:command_block",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": 5,
+            "gui_position": [0,5],
+            "description": "null",
+            "first_tick_commands": [],
+            "last_tick_commands": [],
+            "commands": [
+                "scoreboard players add @s ttt.speedforce_lightning_color 1"
+            ],
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:chat_action",
+                        "chat_message": "CSC",
+                        "cooldown": 5
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "Fall Damage": {
+            "type": "gravecore:dynamic_attribute_modifier",
+            "icon": "ttt_heroes:textures/icons/lucraft/speed_player.png",
+            "title": "Speedforce",
+            "bar_color": "light_gray",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": -1,
+            "gui_position": [0, 8],
+            "description": "null",
+            "scoreboard": "ttt.speedforce_level",
+            "attribute": "gravecore:fall_resistance",
+            "division_amount": 0.2,
+            "operation": 0,
+            "conditions": {
+                "enabling": [],
+                "unlocking": []
+            }
         }
     }
 }

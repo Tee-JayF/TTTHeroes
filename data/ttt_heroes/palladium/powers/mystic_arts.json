@@ -24,6 +24,27 @@
         "enabling": [],
         "unlocking": []
     }
+},
+
+"shield":{
+    "type": "palladium:command",
+    "icon": "minecraft:command_block",
+    "title": "null",
+    "bar_color": "light_gray",
+    "hidden": false,
+    "hidden_in_bar": false,
+    "list_index": -1,
+    "gui_position": "null",
+    "description": "null",
+    "first_tick_commands": [],
+    "last_tick_commands": [],
+    "commands": [
+        "say Hello World"
+    ],
+    "conditions": {
+        "enabling": [],
+        "unlocking": []
+    }
 }
 
     }
