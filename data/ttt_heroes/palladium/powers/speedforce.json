@@ -155,211 +155,6 @@
             }
         },
 
-
-        "Slow Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "Slow Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:afterimage",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 1,
-                        "max_score": 2
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
-        "Light Blue Fast Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "Fast Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:light_blue_lightning",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_lightning_color",
-                        "min_score": 1,
-                        "max_score": 1
-                    },
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 3,
-                        "max_score": 5
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
-        "Orange Fast Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "Fast Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:orange_lightning",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_lightning_color",
-                        "min_score": 2,
-                        "max_score": 2
-                    },
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 3,
-                        "max_score": 5
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
-        "Yellow Fast Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "Fast Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:yellow_lightning",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_lightning_color",
-                        "min_score": 3,
-                        "max_score": 3
-                    },
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 3,
-                        "max_score": 5
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
-        "Purple Fast Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "Fast Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:purple_lightning",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_lightning_color",
-                        "min_score": 4,
-                        "max_score": 4
-                    },
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 3,
-                        "max_score": 5
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
-        "God Trail": {
-            "type": "palladium:trail",
-            "icon": "minecraft:blaze_rod",
-            "title": "God Trail",
-            "bar_color": "light_gray",
-            "hidden": true,
-            "hidden_in_bar": true,
-            "list_index": -1,
-            "gui_position": "null",
-            "description": "null",
-            "trail": "ttt_heroes:white_lightning",
-            "conditions": {
-                "enabling": [
-                    {
-                        "type": "palladium:ability_enabled",
-                        "power": "null",
-                        "ability": "Speedforce"
-                    },
-                    {
-                        "type": "palladium:objective_score",
-                        "objective": "ttt.speedforce_level",
-                        "min_score": 6,
-                        "max_score": 6
-                    }
-                    ],
-                "unlocking": []
-            }
-        },
-
-
         "Lighting Throw": {
             "type": "palladium:energy_beam",
             "icon": "ttt_heroes:textures/icons/lucraft/lightning_throw.png",
@@ -578,7 +373,7 @@
         },
 
 
-        "Orange Lightning Picker":{
+        "Lightning Picker":{
             "type": "palladium:command",
             "icon": "minecraft:command_block",
             "title": "null",
@@ -619,6 +414,415 @@
             "attribute": "gravecore:fall_resistance",
             "division_amount": 0.2,
             "operation": 0,
+            "conditions": {
+                "enabling": [],
+                "unlocking": []
+            }
+        },
+
+
+        "Slow Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Slow Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:afterimage",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 1,
+                        "max_score": 2
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Light Blue Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:light_blue_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 1,
+                        "max_score": 1
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Orange Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:orange_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 2,
+                        "max_score": 2
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Yellow Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:yellow_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 3,
+                        "max_score": 3
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "Purple Fast Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "Fast Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:purple_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 4,
+                        "max_score": 4
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+
+        "White Trail": {
+            "type": "palladium:trail",
+            "icon": "minecraft:blaze_rod",
+            "title": "God Trail",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "trail": "ttt_heroes:white_lightning",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 6,
+                        "max_score": 6
+                    }
+                    ],
+                "unlocking": []
+            }
+        },
+
+        "Light Blue Sparks":{
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "ttt_heroes:light_blue_speedster_sparks",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 1,
+                        "max_score": 1
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "Orange Sparks":{
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "ttt_heroes:orange_speedster_sparks",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 2,
+                        "max_score": 2
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "Yellow Sparks":{
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "ttt_heroes:yellow_speedster_sparks",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 3,
+                        "max_score": 3
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "Purple Sparks":{
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "ttt_heroes:purple_speedster_sparks",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_lightning_color",
+                        "min_score": 4,
+                        "max_score": 4
+                    },
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 3,
+                        "max_score": 5
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+
+        "White Sparks":{
+            "type": "palladium:render_layer",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "render_layer": "ttt_heroes:white_speedster_sparks",
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:ability_enabled",
+                        "power": "null",
+                        "ability": "Speedforce"
+                    },
+                    {
+                        "type": "palladium:objective_score",
+                        "objective": "ttt.speedforce_level",
+                        "min_score": 6,
+                        "max_score": 6
+                    }
+                ],
+                "unlocking": []
+            }
+        },
+        
+        
+        "GUI Overlay":{
+            "type": "palladium:gui_overlay",
+            "icon": "minecraft:blaze_rod",
+            "title": "null",
+            "bar_color": "light_gray",
+            "hidden": true,
+            "hidden_in_bar": true,
+            "list_index": -1,
+            "gui_position": "null",
+            "description": "null",
+            "texture": "ttt_heroes:textures/gui/speedster_bar_11.png",
+            "texture_width": 150,
+            "texture_height": 21,
+            "translate": [
+                0,
+                100,
+                0
+            ],
+            "rotate": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "alignment": "center",
             "conditions": {
                 "enabling": [],
                 "unlocking": []
